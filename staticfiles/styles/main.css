@@ -1,0 +1,135 @@
+body{
+    background-color: black;
+}
+
+    /* CSS for the navbar */
+    .navbar {
+        background-color: #333; 
+        
+    }
+
+    .navbar-brand {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar-brand img {
+        
+        height: 30px; 
+        margin-right: 5px;
+    }
+
+    .navbar-brand {
+        color: #fff; 
+        font-weight: bold;
+    }
+    .company-name {
+        color: #fff; 
+        font-weight: bold;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #fff; 
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        color: #fff;
+        margin-right: 20px; 
+    }
+
+    .dropdown-menu {
+        background-color: #333;
+    }
+
+    .dropdown-item {
+        color: #fff; 
+    }
+
+    .btn-primary {
+        margin-top: 5px;
+        margin-right: 20px;
+        background-color: #ff9900; 
+        color: #333; 
+    }
+
+    .btn-light {
+        margin-left: 10px;
+        background-color: #333; 
+        color: #fff; 
+    }
+
+    .btn-light img {
+        height: 30px; 
+        margin-right: 5px;
+    }
+
+    .button-container {
+        display: flex;
+      }
+      
+      /*Button Hover*/
+      .dropdown:hover>.dropdown-menu {
+        display: block;
+      }
+      
+      .dropdown>.dropdown-toggle:active {
+          
+          pointer-events: none;
+      }
+
+      .dropdown>.dropdown-item.t-color{
+        color: #fff;
+      }
+      .dropdown-menu{
+        background-color: #fff;
+      }
+      .dropdown.dropup .dropdown-menu {
+        top: auto;
+        bottom: 100%;
+      }
+      
+
+    
+    /* CSS for the footer */
+    .footer {
+        background-color:#1c242a ;
+        color: #fff; 
+        padding: 20px 0;
+    }
+
+    .footer-logo img {
+        height: 50px; 
+        margin-right: 0px;
+        margin-top:-10px; 
+    }
+
+    .footer-logo h3 {
+        font-size: 24px; 
+    }
+
+    .social-icons a {
+        text-decoration: none; 
+        color: #fff; 
+        margin-right: 20px;
+        margin-top: 10px; 
+    }
+
+    .social-icons a:hover {
+        color: #009dff; 
+    }
+
+    .footer-links li {
+        list-style: none;
+    }
+
+    .footer-links a {
+        color: #fff; 
+        text-decoration: none; 
+    }
+
+   .all_lists{
+    margin-left: 15px;
+    margin-top: 12px;
+   }
+   
+

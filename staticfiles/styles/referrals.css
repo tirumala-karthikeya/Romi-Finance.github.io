@@ -1,0 +1,45 @@
+.exchange-section {
+        
+    color: #fff; 
+    padding: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.bot-2{
+    margin-left: -25px;
+    -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.bot-1{
+    -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+          font-weight: bold;
+    margin-bottom: 30px;
+}
+.card {
+    display: none;
+    background-color: #1c242a;
+    color:#fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  }
+.space1{
+    margin-bottom:100px;
+}
+.space2{
+    margin-bottom: 80px;
+}
+
+.card:hover {
+    background-color: #000000; 
+    transform: scale(1.05); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+}
